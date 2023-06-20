@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import {cryptoApi} from "./cryptoApi";
 
 const nftsApiHeaders = {
     'x-rapidapi-host': process.env.REACT_APP_NFTS_RAPIDAPI_HOST,
@@ -12,21 +13,22 @@ export const openSeaApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_NFT_API_URL}),
     endpoints: (builder) => ({
         getNfts: builder.query({
-            query: (count) => createRequest(`/assets?limit=${count}`),
+            query: (count) => createRequest(`/coins?limit=${count}`),
         }),
 
-        getCryptoDetails: builder.query({
-            query: (coinId) => createRequest(`/assets/${coinId}`),
+        getNftsDetails: builder.query({
+            query: (coinId) => createRequest(`/coin/${coinId}`),
         }),
 
         // Note: Change the coin price history endpoint from this - `coin/${coinId}/history/${timeperiod} to this - `coin/${coinId}/history?timeperiod=${timeperiod}`
-        getCryptoHistory: builder.query({
-            query: ({ coinId, timeperiod }) => createRequest(`assets/${coinId}/history?timeperiod=${timeperiod}`),
-        }),
-
-        // Note: To access this endpoint you need premium plan
-        getExchanges: builder.query({
-            query: () => createRequest('/exchanges'),
+        getNftsHistory: builder.query({
+            query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history?timeperiod=${timeperiod}`),
         }),
     }),
 });
+
+export const {
+    useGetNftsQuery,
+    useGetNftsDetailsQuery,
+    useGetNftsHistoryQuery,
+} = openSeaApi;

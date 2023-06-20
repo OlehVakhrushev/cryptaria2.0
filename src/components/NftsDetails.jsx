@@ -13,11 +13,11 @@ const { Title, Text } = Typography;
 const { Option } = Select;
 
 const CryptoDetails = () => {
-  const { coinId } = useParams();
+  const { nftId } = useParams();
   const [timeperiod, setTimeperiod] = useState('7d');
-  const { data, isFetching } = useGetCryptoDetailsQuery(coinId);
-  const { data: coinHistory } = useGetCryptoHistoryQuery({ coinId, timeperiod });
-  const cryptoDetails = data?.data?.coin;
+  const { data, isFetching } = useGetNftsDetailsQuery(nftId);
+  const { data: coinHistory } = useGetNftsHistoryQuery({ nftId, timeperiod });
+  const nftDetails = data?.data?.nft;
 
   if (isFetching) return <Loader />;
 
