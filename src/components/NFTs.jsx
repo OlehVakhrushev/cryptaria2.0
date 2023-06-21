@@ -41,8 +41,8 @@ const NFTs = ({ simplified }) => {
                       extra={<img className="nft-image" src={asset.image_thumbnail_url} alt="NFT" />}
                       hoverable
                   >
-                    <p>Description: {asset.description || 'No description available'}</p>
-                    <p>External Link: <a href={asset.external_link}>{asset.external_link}</a></p>
+                    <p>Description: {asset.asset_contract.description || 'No description available'}</p>
+                    <p>External Link: <a href={asset.asset_contract.external_link}>{asset.asset_contract.external_link}</a></p>
                   </Card>
                 </Link>
               </Col>

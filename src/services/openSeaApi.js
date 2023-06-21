@@ -17,13 +17,13 @@ export const openSeaApi = createApi({
         }),
 
         getNftsDetails: builder.query({
-            query: (coinId) => createRequest(`/coin/${coinId}`),
+            query: (token_id) => createRequest(`/assets/${token_id}`),
         }),
 
         // Note: Change the coin price history endpoint from this - `coin/${coinId}/history/${timeperiod} to this - `coin/${coinId}/history?timeperiod=${timeperiod}`
-        getNftsHistory: builder.query({
-            query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history?timeperiod=${timeperiod}`),
-        }),
+        // getNftsHistory: builder.query({
+        //     query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history?timeperiod=${timeperiod}`),
+        // }),
     }),
 });
 

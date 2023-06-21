@@ -17,7 +17,7 @@ const CryptoDetails = () => {
   const [timeperiod, setTimeperiod] = useState('7d');
   const { data, isFetching } = useGetNftsDetailsQuery(nftId);
   const { data: coinHistory } = useGetNftsHistoryQuery({ nftId, timeperiod });
-  const nftDetails = data?.data?.asset;
+  const nftDetails = data?.data?.assets;
 
   if (isFetching) return <Loader />;
 
