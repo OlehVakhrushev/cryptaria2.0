@@ -13,7 +13,7 @@ export const openSeaApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_NFT_API_URL}),
     endpoints: (builder) => ({
         getNfts: builder.query({
-            query: (count) => createRequest(`/coins?limit=${count}`),
+            query: (count) => createRequest(`/assets?limit=${count}`),
         }),
 
         getNftsDetails: builder.query({

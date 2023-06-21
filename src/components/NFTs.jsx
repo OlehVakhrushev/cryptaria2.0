@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Row, Col, Input } from 'antd';
-import { useGetAssetsQuery } from '../services/openSeaApi';
+import {useGetAssetsQuery, useGetNftsQuery} from '../services/openSeaApi';
 import Loader from './Loader';
 
 const NFTs = ({ simplified }) => {
-  const count = simplified ? 10 : 100;
-  const { data: assetsList, isFetching } = useGetAssetsQuery(count);
+  const count = simplified ? 5 : 10;
+  const { data: assetsList, isFetching } = useGetNftsQuery(count);
   const [assets, setAssets] = useState();
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    setAssets(assetsList?.assets);
+    setAssets(assetsList?.data?.assets);
 
     const filteredData = assetsList?.assets.filter((item) =>
         item.name.toLowerCase().includes(searchTerm)
