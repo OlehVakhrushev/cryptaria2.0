@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import {Card, Row, Col, Input, Tooltip} from 'antd';
-import {useGetSalesNftsQuery} from '../services/openSeaApi';
-import Loader from './Loader';
+// import {useGetSalesNftsQuery} from '../services/openSeaApi';
+// import Loader from './Loader';
 import data from '../data.json'
 import {EyeInvisibleOutlined, EyeOutlined} from '@ant-design/icons';
 
@@ -65,7 +65,7 @@ const NFTs = ({ simplified }) => {
   }, [searchTerm]);
 
 
- // when free API frail expair comment useEffect(), fetch
+ // when free API frail expire comment useEffect(), fetch
 
   // useEffect(() => {
   //   if (assetsList) {
