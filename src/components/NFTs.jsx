@@ -9,8 +9,8 @@ import {EyeInvisibleOutlined, EyeOutlined} from '@ant-design/icons';
 
 
 
-const NFTs = ({ simplified }) => {
-  const days = simplified ? 7 : 30;
+const NFTs = () => {
+  // const days = simplified ? 7 : 30;
   // const { data: assetsList, isFetching } = useGetSalesNftsQuery();
   const [nfts, setNfts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
