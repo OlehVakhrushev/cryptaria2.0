@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import {cryptoApi} from "./cryptoApi";
+
 
 const nftsApiHeaders = {
     'x-rapidapi-host': process.env.REACT_APP_NFTS_RAPIDAPI_HOST,

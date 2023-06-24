@@ -40,10 +40,10 @@ const CryptoDetails = () => {
   ];
 
   return (
-    <Col className="coin-detail-container">
-      <Col className="coin-heading-container">
-        <Title level={2} className="coin-name">
-          {data?.data?.nft.name} ({data?.data?.nft.symbol}) Price
+    <Col className="nft-detail-container">
+      <Col className="nft-heading-container">
+        <Title level={2} className="nft-name">
+          {data?.data?.assets.name} ({data?.data?.assets.symbol}) Price
         </Title>
         <p>{nftDetails.name} live price in US Dollar (USD). View value statistics, market cap and supply.</p>
       </Col>

@@ -368,6 +368,9 @@ width: 70%;
 .crypto-card .crypto-image{
     width:35px;
 }
+.nft-card .nft-image{
+    width:35px;
+}
 .select-timeperiod{
     width: 200px !important;
     margin-top: 20px !important;

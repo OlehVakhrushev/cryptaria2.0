@@ -1,0 +1,963 @@
+const data = {
+    "data": {
+    "count": "10650",
+        "collections": [
+        {
+            "name": "BoredApeYachtClub",
+            "categories": [
+                "PFPs"
+            ],
+            "floorPrice": 37.4,
+            "floorPriceUsd": 70630.1485832323,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d.png",
+            "website": "http://www.boredapeyachtclub.com/",
+            "marketCap": 421052,
+            "marketCapUsd": 795159500.5686398,
+            "owners": 5536,
+            "assets": 10000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 5268.5784,
+                "volumeChangePercentage": 62.79,
+                "sales": 144,
+                "salesChangePercentage": 67.44,
+                "averagePrice": 36.58735031,
+                "averagePriceChangePercentage": -2.78
+            },
+            "sevenDay": {
+                "volume": 27319.9538,
+                "volumeChangePercentage": -38.03,
+                "sales": 681,
+                "salesChangePercentage": -30.01,
+                "averagePrice": 40.11740646,
+                "averagePriceChangePercentage": -11.45
+            },
+            "thirtyDay": {
+                "volume": 136776.2077,
+                "volumeChangePercentage": 267.4,
+                "sales": 3075,
+                "salesChangePercentage": 297.29,
+                "averagePrice": 44.48006754,
+                "averagePriceChangePercentage": -7.52
+            },
+            "allTime": {
+                "volume": 1426430.8161,
+                "sales": 38596,
+                "averagePrice": 36.958
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "ownerAssetsPercentage": 55.36
+        },
+        {
+            "name": "MutantApeYachtClub",
+            "categories": [
+                "PFPs"
+            ],
+            "floorPrice": 7.3,
+            "floorPriceUsd": 13786.098520256572,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x60e4d786628fea6478f785a6d7e704777c86a7c6.png",
+            "marketCap": 162591.768,
+            "marketCapUsd": 307055634.55215067,
+            "owners": 11149,
+            "assets": 19480,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 1428.3457,
+                "volumeChangePercentage": -25.4,
+                "sales": 200,
+                "salesChangePercentage": -23.37,
+                "averagePrice": 7.14172861,
+                "averagePriceChangePercentage": -2.65
+            },
+            "sevenDay": {
+                "volume": 10011.6668,
+                "volumeChangePercentage": -28.21,
+                "sales": 1278,
+                "salesChangePercentage": -16.74,
+                "averagePrice": 7.83385509,
+                "averagePriceChangePercentage": -13.77
+            },
+            "thirtyDay": {
+                "volume": 49682.8959,
+                "volumeChangePercentage": -10.91,
+                "sales": 5488,
+                "salesChangePercentage": 1.25,
+                "averagePrice": 9.05300581,
+                "averagePriceChangePercentage": -12.01
+            },
+            "allTime": {
+                "volume": 1040318.2303,
+                "sales": 76259,
+                "averagePrice": 13.6419
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "ownerAssetsPercentage": 57.23
+        },
+        {
+            "name": "Azuki",
+            "categories": [
+                "PFPs"
+            ],
+            "floorPrice": 16.86,
+            "floorPriceUsd": 31840.222061852848,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xed5af388653567af2f388e6224dc7c4b3241c544.png",
+            "website": "http://www.azuki.com",
+            "marketCap": 166289,
+            "marketCapUsd": 314037881.7582117,
+            "owners": 4537,
+            "assets": 10000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 1131.0822,
+                "volumeChangePercentage": -39,
+                "sales": 67,
+                "salesChangePercentage": -39.64,
+                "averagePrice": 16.88182313,
+                "averagePriceChangePercentage": 1.06
+            },
+            "sevenDay": {
+                "volume": 7809.9512,
+                "volumeChangePercentage": -9.67,
+                "sales": 469,
+                "salesChangePercentage": -5.82,
+                "averagePrice": 16.65234797,
+                "averagePriceChangePercentage": -4.09
+            },
+            "thirtyDay": {
+                "volume": 39618.1286,
+                "volumeChangePercentage": 7.34,
+                "sales": 2337,
+                "salesChangePercentage": -6.22,
+                "averagePrice": 16.95255824,
+                "averagePriceChangePercentage": 14.46
+            },
+            "allTime": {
+                "volume": 656237.7958,
+                "sales": 53883,
+                "averagePrice": 12.1789
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+            "ownerAssetsPercentage": 45.37
+        },
+        {
+            "name": "Dreadfulz",
+            "floorPrice": 0.0088,
+            "floorPriceUsd": 16.618858490172308,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x81ae0be3a8044772d04f32398bac1e1b4b215aa8.png",
+            "website": "https://stake.dreadfulz.com",
+            "marketCap": 75.4369,
+            "marketCapUsd": 142463.08704969083,
+            "owners": 1662,
+            "assets": 7777,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 872.8596,
+                "volumeChangePercentage": 0.36,
+                "sales": 8,
+                "salesChangePercentage": 0,
+                "averagePrice": 109.10745362,
+                "averagePriceChangePercentage": 0.36
+            },
+            "sevenDay": {
+                "volume": 6165.2532,
+                "volumeChangePercentage": 1.05,
+                "sales": 57,
+                "salesChangePercentage": 0,
+                "averagePrice": 108.16233684,
+                "averagePriceChangePercentage": 1.05
+            },
+            "thirtyDay": {
+                "volume": 27452.4093,
+                "volumeChangePercentage": -7.07,
+                "sales": 248,
+                "salesChangePercentage": 8.3,
+                "averagePrice": 110.69519879,
+                "averagePriceChangePercentage": -14.19
+            },
+            "allTime": {
+                "volume": 1111163.2429,
+                "sales": 18158,
+                "averagePrice": 61.1941
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x81ae0be3a8044772d04f32398bac1e1b4b215aa8",
+            "ownerAssetsPercentage": 21.37
+        },
+        {
+            "name": "MineablePunks",
+            "floorPrice": 0.0185,
+            "floorPriceUsd": 34.93737296229405,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x595a8974c1473717c4b5d456350cd594d9bda687.png",
+            "website": "http://mpunks.org",
+            "marketCap": 130.6305,
+            "marketCapUsd": 246696.56750005152,
+            "owners": 979,
+            "assets": 4147,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 783.8,
+                "volumeChangePercentage": 1.4,
+                "sales": 3,
+                "salesChangePercentage": 0,
+                "averagePrice": 261.26666667,
+                "averagePriceChangePercentage": 1.4
+            },
+            "sevenDay": {
+                "volume": 4659.5273,
+                "volumeChangePercentage": -20.24,
+                "sales": 25,
+                "salesChangePercentage": 31.58,
+                "averagePrice": 186.381092,
+                "averagePriceChangePercentage": -39.38
+            },
+            "thirtyDay": {
+                "volume": 29155.8451,
+                "volumeChangePercentage": -29,
+                "sales": 121,
+                "salesChangePercentage": -29.24,
+                "averagePrice": 240.95739752,
+                "averagePriceChangePercentage": 0.34
+            },
+            "allTime": {
+                "volume": 301538.4843,
+                "sales": 5036,
+                "averagePrice": 59.8766
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x595a8974c1473717c4b5d456350cd594d9bda687",
+            "ownerAssetsPercentage": 23.61
+        },
+        {
+            "name": "DeGods",
+            "floorPrice": 8.58,
+            "floorPriceUsd": 16203.387027917997,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x8821bee2ba0df28761afff119d66390d594cd280.png",
+            "website": "https://degods.com",
+            "marketCap": 86152.2704,
+            "marketCapUsd": 162699135.2709841,
+            "owners": 1982,
+            "assets": 8771,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 478.2506,
+                "volumeChangePercentage": 38.76,
+                "sales": 52,
+                "salesChangePercentage": 79.31,
+                "averagePrice": 9.19712673,
+                "averagePriceChangePercentage": -22.61
+            },
+            "sevenDay": {
+                "volume": 1968.0478,
+                "volumeChangePercentage": -30.13,
+                "sales": 186,
+                "salesChangePercentage": -37.16,
+                "averagePrice": 10.58090215,
+                "averagePriceChangePercentage": 11.2
+            },
+            "thirtyDay": {
+                "volume": 10626.2852,
+                "volumeChangePercentage": -29.01,
+                "sales": 1125,
+                "salesChangePercentage": -33.43,
+                "averagePrice": 9.44558684,
+                "averagePriceChangePercentage": 6.64
+            },
+            "allTime": {
+                "volume": 35928.7495,
+                "sales": 4013,
+                "averagePrice": 8.9531
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x8821bee2ba0df28761afff119d66390d594cd280",
+            "ownerAssetsPercentage": 22.6
+        },
+        {
+            "name": "Beanz",
+            "categories": [
+                "PFPs"
+            ],
+            "floorPrice": 1.4175,
+            "floorPriceUsd": 2676.9581715703684,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949.png",
+            "marketCap": 27804.315,
+            "marketCapUsd": 52508633.681951724,
+            "owners": 7494,
+            "assets": 19950,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 421.7308,
+                "volumeChangePercentage": 42.01,
+                "sales": 305,
+                "salesChangePercentage": 39.27,
+                "averagePrice": 1.382724,
+                "averagePriceChangePercentage": 1.97
+            },
+            "sevenDay": {
+                "volume": 1695.4337,
+                "volumeChangePercentage": 61.29,
+                "sales": 1197,
+                "salesChangePercentage": 59.39,
+                "averagePrice": 1.41640242,
+                "averagePriceChangePercentage": 1.19
+            },
+            "thirtyDay": {
+                "volume": 9266.5841,
+                "volumeChangePercentage": 67.96,
+                "sales": 6163,
+                "salesChangePercentage": 53.12,
+                "averagePrice": 1.50358334,
+                "averagePriceChangePercentage": 9.69
+            },
+            "allTime": {
+                "volume": 177931.7652,
+                "sales": 88130,
+                "averagePrice": 2.019
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+            "ownerAssetsPercentage": 37.56
+        },
+        {
+            "name": "Milady",
+            "floorPrice": 3.59,
+            "floorPriceUsd": 6779.738861331656,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x5af0d9827e0c53e4799bb226655a1de152a425a5.png",
+            "website": "https://miladymaker.net",
+            "marketCap": 30396,
+            "marketCapUsd": 57403048.03037243,
+            "owners": 3429,
+            "assets": 10000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 361.7384,
+                "volumeChangePercentage": 12.17,
+                "sales": 107,
+                "salesChangePercentage": 1.9,
+                "averagePrice": 3.38073293,
+                "averagePriceChangePercentage": 10.07
+            },
+            "sevenDay": {
+                "volume": 1125.0346,
+                "volumeChangePercentage": -1.85,
+                "sales": 362,
+                "salesChangePercentage": -11.71,
+                "averagePrice": 3.10783039,
+                "averagePriceChangePercentage": 11.16
+            },
+            "thirtyDay": {
+                "volume": 6224.5674,
+                "volumeChangePercentage": -81.84,
+                "sales": 1973,
+                "salesChangePercentage": -76.02,
+                "averagePrice": 3.15487451,
+                "averagePriceChangePercentage": -24.25
+            },
+            "allTime": {
+                "volume": 71822.8941,
+                "sales": 43027,
+                "averagePrice": 1.6693
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+            "ownerAssetsPercentage": 34.29
+        },
+        {
+            "name": "Captainz",
+            "floorPrice": 8.04,
+            "floorPriceUsd": 15183.593438748334,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x769272677fab02575e84945f03eca517acc544cc.png",
+            "website": "http://memeland.com/captainz",
+            "marketCap": 87581.241,
+            "marketCapUsd": 165397755.7468951,
+            "owners": 4498,
+            "assets": 9999,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 265.5759,
+                "volumeChangePercentage": -11.37,
+                "sales": 29,
+                "salesChangePercentage": -21.62,
+                "averagePrice": 9.15778966,
+                "averagePriceChangePercentage": 13.08
+            },
+            "sevenDay": {
+                "volume": 1281.7403,
+                "volumeChangePercentage": -10.7,
+                "sales": 149,
+                "salesChangePercentage": -6.88,
+                "averagePrice": 8.60228389,
+                "averagePriceChangePercentage": -4.11
+            },
+            "thirtyDay": {
+                "volume": 8257.4899,
+                "volumeChangePercentage": -18.53,
+                "sales": 923,
+                "salesChangePercentage": -24.65,
+                "averagePrice": 8.94635959,
+                "averagePriceChangePercentage": 8.13
+            },
+            "allTime": {
+                "volume": 66054.0098,
+                "sales": 11249,
+                "averagePrice": 5.872
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x769272677fab02575e84945f03eca517acc544cc",
+            "ownerAssetsPercentage": 44.98
+        },
+        {
+            "name": "BoredApeKennelClub",
+            "floorPrice": 3,
+            "floorPriceUsd": 5665.519939831468,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xba30e5f9bb24caa003e9f2f0497ad287fdf95623.png",
+            "website": "http://boredapeyachtclub.com/#/kennel-club",
+            "marketCap": 33283.4126,
+            "marketCapUsd": 62855945.916979305,
+            "owners": 5260,
+            "assets": 9602,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 165.3499,
+                "volumeChangePercentage": -37.87,
+                "sales": 56,
+                "salesChangePercentage": -34.12,
+                "averagePrice": 2.95267629,
+                "averagePriceChangePercentage": -5.69
+            },
+            "sevenDay": {
+                "volume": 1429.2784,
+                "volumeChangePercentage": 18.76,
+                "sales": 432,
+                "salesChangePercentage": 42.11,
+                "averagePrice": 3.30851481,
+                "averagePriceChangePercentage": -16.43
+            },
+            "thirtyDay": {
+                "volume": 5299.4688,
+                "volumeChangePercentage": 13.87,
+                "sales": 1392,
+                "salesChangePercentage": 30.83,
+                "averagePrice": 3.80708966,
+                "averagePriceChangePercentage": -12.96
+            },
+            "allTime": {
+                "volume": 284018.9958,
+                "sales": 46724,
+                "averagePrice": 6.0787
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+            "ownerAssetsPercentage": 54.78
+        },
+        {
+            "name": "Wrapped Cryptopunks",
+            "floorPrice": 63.6,
+            "floorPriceUsd": 120109.02272442712,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xb7f7f6c52f2e2fdb1963eab30438024864c313f6.png",
+            "website": "https://wrappedpunks.com/",
+            "marketCap": 121994.964,
+            "marketCapUsd": 230388300.36700737,
+            "owners": 128,
+            "assets": 2457,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 144,
+                "volumeChangePercentage": -75.41,
+                "sales": 3,
+                "salesChangePercentage": -75,
+                "averagePrice": 48,
+                "averagePriceChangePercentage": -1.62
+            },
+            "sevenDay": {
+                "volume": 4857.41,
+                "volumeChangePercentage": -63.03,
+                "sales": 99,
+                "salesChangePercentage": -62.36,
+                "averagePrice": 49.06474747,
+                "averagePriceChangePercentage": -1.78
+            },
+            "thirtyDay": {
+                "volume": 21262.3874,
+                "volumeChangePercentage": -25.71,
+                "sales": 427,
+                "salesChangePercentage": -25.74,
+                "averagePrice": 49.79481827,
+                "averagePriceChangePercentage": 0.04
+            },
+            "allTime": {
+                "volume": 329244.3488,
+                "sales": 5654,
+                "averagePrice": 58.2321
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xb7f7f6c52f2e2fdb1963eab30438024864c313f6",
+            "ownerAssetsPercentage": 5.21
+        },
+        {
+            "name": "Opepen Edition",
+            "floorPrice": 0.715,
+            "floorPriceUsd": 1350.2822523265,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x6339e5e072086621540d0362c4e3cea0d643e114.png",
+            "website": "http://opepen.art",
+            "marketCap": 13684.8,
+            "marketCapUsd": 25843835.757535223,
+            "owners": 4088,
+            "assets": 16000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 130.959,
+                "volumeChangePercentage": 82.3,
+                "sales": 153,
+                "salesChangePercentage": 54.55,
+                "averagePrice": 0.85594119,
+                "averagePriceChangePercentage": 17.96
+            },
+            "sevenDay": {
+                "volume": 744.2448,
+                "volumeChangePercentage": -34.61,
+                "sales": 780,
+                "salesChangePercentage": -43.52,
+                "averagePrice": 0.95416,
+                "averagePriceChangePercentage": 15.78
+            },
+            "thirtyDay": {
+                "volume": 10300.3376,
+                "volumeChangePercentage": 244.25,
+                "sales": 10198,
+                "salesChangePercentage": 40.66,
+                "averagePrice": 1.01003507,
+                "averagePriceChangePercentage": 144.74
+            },
+            "allTime": {
+                "volume": 67226.4352,
+                "sales": 156833,
+                "averagePrice": 0.4286
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x6339e5e072086621540d0362c4e3cea0d643e114",
+            "ownerAssetsPercentage": 25.55
+        },
+        {
+            "name": "Redacted Remilio Babies",
+            "categories": [
+                "Art"
+            ],
+            "floorPrice": 0.962,
+            "floorPriceUsd": 1816.7433940392907,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://openseauserdata.com/files/9d6168e731afd02d5e878eb03876cfd4.gif",
+            "website": "http://remilio.org",
+            "marketCap": 7893,
+            "marketCapUsd": 14905982.961696591,
+            "owners": 2373,
+            "assets": 10000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 120.8507,
+                "volumeChangePercentage": 82.79,
+                "sales": 125,
+                "salesChangePercentage": 56.25,
+                "averagePrice": 0.9668054,
+                "averagePriceChangePercentage": 16.99
+            },
+            "sevenDay": {
+                "volume": 302.7645,
+                "volumeChangePercentage": -45,
+                "sales": 345,
+                "salesChangePercentage": -53.75,
+                "averagePrice": 0.87757826,
+                "averagePriceChangePercentage": 18.92
+            },
+            "thirtyDay": {
+                "volume": 2413.977,
+                "volumeChangePercentage": -72.29,
+                "sales": 2550,
+                "salesChangePercentage": -59.31,
+                "averagePrice": 0.94665765,
+                "averagePriceChangePercentage": -31.89
+            },
+            "allTime": {
+                "volume": 15348.2323,
+                "sales": 27047,
+                "averagePrice": 0.5675
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xd3d9ddd0cf0a5f0bfb8f7fceae075df687eaebab",
+            "ownerAssetsPercentage": 23.73
+        },
+        {
+            "name": "YOU THE REAL MVP",
+            "categories": [
+                "Collectibles"
+            ],
+            "floorPrice": 63.69,
+            "floorPriceUsd": 120278.98832262207,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x6efc003d3f3658383f06185503340c2cf27a57b6.png",
+            "website": "http://memeland.com",
+            "marketCap": 24411.45,
+            "marketCapUsd": 46101185.57839963,
+            "owners": 282,
+            "assets": 420,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 115.49,
+                "volumeChangePercentage": 0.87,
+                "sales": 2,
+                "salesChangePercentage": 100,
+                "averagePrice": 57.745,
+                "averagePriceChangePercentage": -49.56
+            },
+            "sevenDay": {
+                "volume": 115.49,
+                "volumeChangePercentage": -1.29,
+                "sales": 2,
+                "salesChangePercentage": 0,
+                "averagePrice": 57.745,
+                "averagePriceChangePercentage": -1.29
+            },
+            "thirtyDay": {
+                "volume": 232.4927,
+                "volumeChangePercentage": -57.65,
+                "sales": 5,
+                "salesChangePercentage": -61.54,
+                "averagePrice": 46.49854,
+                "averagePriceChangePercentage": 10.12
+            },
+            "allTime": {
+                "volume": 5457.7771,
+                "sales": 218,
+                "averagePrice": 25.0357
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x6efc003d3f3658383f06185503340c2cf27a57b6",
+            "ownerAssetsPercentage": 67.14
+        },
+        {
+            "name": "PudgyPenguins",
+            "floorPrice": 4.8789,
+            "floorPriceUsd": 9213.835078147917,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xbd3531da5cf5857e7cfaa92426877b022e612cf8.png",
+            "website": "https://www.pudgypenguins.com/",
+            "marketCap": 37975.7576,
+            "marketCapUsd": 71717470.6376688,
+            "owners": 4586,
+            "assets": 8888,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 110.3103,
+                "volumeChangePercentage": 64.15,
+                "sales": 25,
+                "salesChangePercentage": 66.67,
+                "averagePrice": 4.41241368,
+                "averagePriceChangePercentage": -1.51
+            },
+            "sevenDay": {
+                "volume": 690.2444,
+                "volumeChangePercentage": -53.05,
+                "sales": 156,
+                "salesChangePercentage": -55.56,
+                "averagePrice": 4.42464359,
+                "averagePriceChangePercentage": 5.63
+            },
+            "thirtyDay": {
+                "volume": 6407.7484,
+                "volumeChangePercentage": -54.82,
+                "sales": 1370,
+                "salesChangePercentage": -54.85,
+                "averagePrice": 4.67718861,
+                "averagePriceChangePercentage": 0.05
+            },
+            "allTime": {
+                "volume": 182053.4057,
+                "sales": 61519,
+                "averagePrice": 2.9593
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+            "ownerAssetsPercentage": 51.6
+        },
+        {
+            "name": "Koda",
+            "floorPrice": 5.7398,
+            "floorPriceUsd": 10839.650450214887,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xe012baf811cf9c05c408e879c399960d1f305903.png",
+            "website": "https://otherside.xyz",
+            "marketCap": 34040.544,
+            "marketCapUsd": 64285793.598236814,
+            "owners": 3300,
+            "assets": 5560,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 108.7803,
+                "volumeChangePercentage": 36.1,
+                "sales": 18,
+                "salesChangePercentage": 28.57,
+                "averagePrice": 6.04335,
+                "averagePriceChangePercentage": 5.85
+            },
+            "sevenDay": {
+                "volume": 435.0421,
+                "volumeChangePercentage": 37.11,
+                "sales": 72,
+                "salesChangePercentage": 53.19,
+                "averagePrice": 6.04225139,
+                "averagePriceChangePercentage": -10.5
+            },
+            "thirtyDay": {
+                "volume": 2169.1773,
+                "volumeChangePercentage": 29.46,
+                "sales": 298,
+                "salesChangePercentage": 35.45,
+                "averagePrice": 7.27911846,
+                "averagePriceChangePercentage": -4.42
+            },
+            "allTime": {
+                "volume": 7603.9676,
+                "sales": 915,
+                "averagePrice": 8.3103
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xe012baf811cf9c05c408e879c399960d1f305903",
+            "ownerAssetsPercentage": 59.35
+        },
+        {
+            "name": "CloneX",
+            "categories": [
+                "PFPs"
+            ],
+            "floorPrice": 1.9299,
+            "floorPriceUsd": 3644.6289772935834,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b.png",
+            "website": "http://www.rtfkt.com",
+            "marketCap": 40620.0498,
+            "marketCapUsd": 76711234.03294908,
+            "owners": 9541,
+            "assets": 19497,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 106.3073,
+                "volumeChangePercentage": -70.99,
+                "sales": 58,
+                "salesChangePercentage": -71,
+                "averagePrice": 1.8328845,
+                "averagePriceChangePercentage": 0.02
+            },
+            "sevenDay": {
+                "volume": 892.4679,
+                "volumeChangePercentage": 122.9,
+                "sales": 426,
+                "salesChangePercentage": 167.92,
+                "averagePrice": 2.09499507,
+                "averagePriceChangePercentage": -16.8
+            },
+            "thirtyDay": {
+                "volume": 2889.4586,
+                "volumeChangePercentage": -24.38,
+                "sales": 1117,
+                "salesChangePercentage": -1.06,
+                "averagePrice": 2.58680269,
+                "averagePriceChangePercentage": -23.57
+            },
+            "allTime": {
+                "volume": 429273.9792,
+                "sales": 53610,
+                "averagePrice": 8.0073
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+            "ownerAssetsPercentage": 48.94
+        },
+        {
+            "name": "More Loot",
+            "floorPrice": 0.0033,
+            "floorPriceUsd": 6.232071933814614,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x1dfe7ca09e99d10835bf73044a23b73fc20623df.png",
+            "marketCap": 514.6302,
+            "marketCapUsd": 971882.5532464854,
+            "owners": 25264,
+            "assets": 135429,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 100.0139,
+                "volumeChangePercentage": 0.01,
+                "sales": 4,
+                "salesChangePercentage": 100,
+                "averagePrice": 25.003475,
+                "averagePriceChangePercentage": -49.99
+            },
+            "sevenDay": {
+                "volume": 600.0379,
+                "volumeChangePercentage": -25,
+                "sales": 14,
+                "salesChangePercentage": -36.36,
+                "averagePrice": 42.85985,
+                "averagePriceChangePercentage": 17.85
+            },
+            "thirtyDay": {
+                "volume": 3447.2318,
+                "volumeChangePercentage": -62.59,
+                "sales": 71,
+                "salesChangePercentage": 61.36,
+                "averagePrice": 48.55256056,
+                "averagePriceChangePercentage": -76.82
+            },
+            "allTime": {
+                "volume": 961040.2313,
+                "sales": 8536,
+                "averagePrice": 112.5867
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x1dfe7ca09e99d10835bf73044a23b73fc20623df",
+            "ownerAssetsPercentage": 18.65
+        },
+        {
+            "name": "CryptoPunks",
+            "floorPrice": 47.69,
+            "floorPriceUsd": 90062.88197685423,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb.png",
+            "website": "https://cryptopunks.app/",
+            "marketCap": 559087,
+            "marketCapUsd": 1055839515.5335187,
+            "owners": 3697,
+            "assets": 10000,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 97.6899,
+                "volumeChangePercentage": 74.45,
+                "sales": 3,
+                "salesChangePercentage": 200,
+                "averagePrice": 32.5633,
+                "averagePriceChangePercentage": -41.85
+            },
+            "sevenDay": {
+                "volume": 767.6099,
+                "volumeChangePercentage": -36.61,
+                "sales": 18,
+                "salesChangePercentage": -14.29,
+                "averagePrice": 42.64499444,
+                "averagePriceChangePercentage": -26.04
+            },
+            "thirtyDay": {
+                "volume": 4488.7689,
+                "volumeChangePercentage": -15.56,
+                "sales": 84,
+                "salesChangePercentage": -25,
+                "averagePrice": 53.437725,
+                "averagePriceChangePercentage": 12.58
+            },
+            "allTime": {
+                "volume": 1127425.9912,
+                "sales": 23253,
+                "averagePrice": 48.4852
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "ownerAssetsPercentage": 36.97
+        },
+        {
+            "name": "HV-MTL",
+            "floorPrice": 0.7299,
+            "floorPriceUsd": 1378.4210013609961,
+            "floorPriceToken": "ETH",
+            "popular": false,
+            "logo": "https://logo.nftscan.com/logo/0x4b15a9c28034dc83db40cd810001427d3bd7163d.png",
+            "website": "https://mdvmm.xyz/",
+            "marketCap": 25720.8056,
+            "marketCapUsd": 48573912.33177629,
+            "owners": 10061,
+            "assets": 27503,
+            "dataSource": "nftscan",
+            "oneDay": {
+                "volume": 94.1047,
+                "volumeChangePercentage": -35.32,
+                "sales": 97,
+                "salesChangePercentage": -43.93,
+                "averagePrice": 0.97015152,
+                "averagePriceChangePercentage": 15.36
+            },
+            "sevenDay": {
+                "volume": 859.473,
+                "volumeChangePercentage": 42.94,
+                "sales": 848,
+                "salesChangePercentage": 62.76,
+                "averagePrice": 1.01352948,
+                "averagePriceChangePercentage": -12.18
+            },
+            "thirtyDay": {
+                "volume": 2558.2705,
+                "volumeChangePercentage": -48.74,
+                "sales": 2192,
+                "salesChangePercentage": -39.68,
+                "averagePrice": 1.16709421,
+                "averagePriceChangePercentage": -15.02
+            },
+            "allTime": {
+                "volume": 32777.6052,
+                "sales": 15560,
+                "averagePrice": 2.1065
+            },
+            "blockchain": "Ethereum",
+            "contractAddress": "0x4b15a9c28034dc83db40cd810001427d3bd7163d",
+            "ownerAssetsPercentage": 36.58
+        }
+    ],
+        "blockChains": [
+        "Ethereum",
+        "BNB Chain",
+        "Polygon",
+        "Arbitrum",
+        "Optimism",
+        "Solana"
+    ],
+        "timestamp": "1687573308334"
+},
+    "status": {
+    "timestamp": "2023-06-24T02:21:48.335Z",
+        "error_code": "0",
+        "error_message": "SUCCESS",
+        "elapsed": "30",
+        "credit_count": 0
+}
+}
+
+export default data;
