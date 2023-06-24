@@ -7,13 +7,13 @@ import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
 import Loader from './Loader';
-import {useGetNftsQuery} from "../services/openSeaApi";
+// import {useGetNftsQuery} from "../services/openSeaApi";
 
 const { Title } = Typography;
 
 const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
-  const { nftData, nftIsFetching} = useGetNftsQuery(10);
+  // const { nftData, nftIsFetching} = useGetNftsQuery(10);
   const globalStats = data?.data?.stats;
 
   if (isFetching) return <Loader />;

@@ -42,7 +42,7 @@ const Navbar = () => {
         <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
-      <Menu theme="dark">
+      <Menu theme="dark" style={{ color: 'gold' }}>
         <Menu.Item key="home" icon={<HomeOutlined />}>
           <Link to="/">Home</Link>
         </Menu.Item>
@@ -52,9 +52,9 @@ const Navbar = () => {
         <Menu.Item key="nfts" icon={<PictureOutlined />}>
           <Link to="/nfts">NFTs</Link>
         </Menu.Item>
-        <Menu.Item key="exchanges" icon={<MoneyCollectOutlined />}>
-          <Link to="/exchanges">Exchanges</Link>
-        </Menu.Item>
+        {/*<Menu.Item key="exchanges" icon={<MoneyCollectOutlined />}>*/}
+        {/*  <Link to="/exchanges">Exchanges</Link>*/}
+        {/*</Menu.Item>*/}
         <Menu.Item key="news" icon={<BulbOutlined />}>
           <Link to="/news">News</Link>
         </Menu.Item>

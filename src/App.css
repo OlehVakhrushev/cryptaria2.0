@@ -364,12 +364,40 @@ width: 70%;
 }
 .nft-card{
     min-width: 250px;
+    min-height: 100px;
 }
+.nft-image{
+    width:100px;
+    height:100px;
+}
+
 .crypto-card .crypto-image{
     width:35px;
 }
-.nft-card .nft-image{
-    width:35px;
+.custom-eye-icon {
+    font-size: 24px;
+}
+.custom-link {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, #af20df, #e49323, #12edd7, #0f53e4, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.custom-eye-invisible-icon {
+    font-size: 24px;
+}
+
+.ant-menu-item-custom {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 .select-timeperiod{
     width: 200px !important;

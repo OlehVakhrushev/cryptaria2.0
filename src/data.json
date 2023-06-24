@@ -1,4 +1,4 @@
-const data = {
+{
     "data": {
     "count": "10650",
         "collections": [
@@ -960,4 +960,3 @@ const data = {
 }
 }
 
-export default data;

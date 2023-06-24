@@ -12,23 +12,12 @@ export const openSeaApi = createApi({
     reducerPath: 'openSeaApi',
     baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_NFT_API_URL}),
     endpoints: (builder) => ({
-        getNfts: builder.query({
-            query: (count) => createRequest(`/assets?limit=${count}`),
+        getSalesNfts: builder.query({
+            query: () => createRequest(`/api/get-collections-ranking`),
         }),
-
-        getNftsDetails: builder.query({
-            query: (token_id) => createRequest(`/assets/${token_id}`),
-        }),
-
-        // Note: Change the coin price history endpoint from this - `coin/${coinId}/history/${timeperiod} to this - `coin/${coinId}/history?timeperiod=${timeperiod}`
-        // getNftsHistory: builder.query({
-        //     query: ({ coinId, timeperiod }) => createRequest(`coin/${coinId}/history?timeperiod=${timeperiod}`),
-        // }),
     }),
 });
 
 export const {
-    useGetNftsQuery,
-    useGetNftsDetailsQuery,
-    useGetNftsHistoryQuery,
+    useGetSalesNftsQuery,
 } = openSeaApi;

@@ -12,6 +12,7 @@ const Cryptocurrencies = ({ simplified }) => {
   const [cryptos, setCryptos] = useState();
   const [searchTerm, setSearchTerm] = useState('');
 
+
   useEffect(() => {
     setCryptos(cryptosList?.data?.coins);
 
@@ -43,7 +44,7 @@ const Cryptocurrencies = ({ simplified }) => {
           >
 
             {/* Note: Change currency.id to currency.uuid  */}
-            <Link key={currency.uuid} to={`/crypto/${currency.uuid}`}>
+            <Link key={currency.uuid} to={currency.coinrankingUrl}>
               <Card
                 title={`${currency.rank}. ${currency.name}`}
                 extra={<img className="crypto-image" src={currency.iconUrl} alt="Cryptocurrency" />}
