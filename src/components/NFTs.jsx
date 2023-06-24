@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import { Link } from 'react-router-dom';
-import {Card, Row, Col, Input, Tooltip} from 'antd';
+import {Card, Row, Col, Input} from 'antd';
 // import {useGetSalesNftsQuery} from '../services/openSeaApi';
 // import Loader from './Loader';
 import data from '../data.json'
